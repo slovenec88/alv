@@ -20,7 +20,7 @@
 		}
 
 		&.solid {
-			&:before {
+			&:before { 
 				font-weight: 900;
 			}
 		}
@@ -31,3 +31,8 @@
 			}
 		}
 	}
+
+	.topLogo {
+		height: 3.5em;
+		vertical-align: middle;
+} 
