@@ -2460,7 +2460,8 @@ button:disabled,
   }
 }
 #banner {
-  background-image: url(../../images/ana.jpg) !important;
+  background-image: url(../../images/bg-top.jpg) !important;
+  background-size: cover !important;
 }
 
 .topLogoTxt {
