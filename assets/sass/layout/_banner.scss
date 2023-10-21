@@ -70,7 +70,7 @@
 			text-transform: uppercase;
 		}
 
-		@include breakpoint('<=large') {
+		// @include breakpoint('<=large') {
 			@include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
 
 			background-color:		_palette(bg);
@@ -85,7 +85,7 @@
 									center;
 
 		 	margin-bottom: (_size(wrapper-edges, large) * -1);
-		}
+		// }
 
 		@include breakpoint('<=medium') {
 			@include padding(12em, 3em, (0, 0, _size(wrapper-edges, medium) * 0.5, 0));
@@ -97,27 +97,27 @@
 			}
 		}
 
-		@include breakpoint('<=small') {
-			@include padding(5em, 2em, (0, 0, _size(wrapper-edges, small) * 0.5, 0));
+		// @include breakpoint('<=small') {
+		// 	@include padding(5em, 2em, (0, 0, _size(wrapper-edges, small) * 0.5, 0));
 
-		 	margin-bottom: (_size(wrapper-edges, small) * -1);
+		//  	margin-bottom: (_size(wrapper-edges, small) * -1);
 
-			.logo {
-				margin: 0 0 (_size(element-margin) * 0.5) 0;
+		// 	.logo {
+		// 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 
-				.icon {
-					font-size: 1.5em;
-				}
-			}
+		// 		.icon {
+		// 			font-size: 1.5em;
+		// 		}
+		// 	}
 
-			h2 {
-				font-size: 1.5em;
-			}
+		// 	h2 {
+		// 		font-size: 1.5em;
+		// 	}
 
-			p {
-				font-size: 0.8em;
-			}
-		}
+		// 	p {
+		// 		font-size: 0.8em;
+		// 	}
+		// }
 
 		body.is-preload & {
 			.logo {
