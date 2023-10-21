@@ -32,7 +32,37 @@
 		}
 	}
 
-	.topLogo {
+.mainlogoWrapper {
+	margin: 0;
+    height: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.topLogo {
 		height: 3.5em;
 		vertical-align: middle;
-} 
+		float: left;
+}
+
+.mainLogo {
+	height: 6em;
+	vertical-align: middle;
+	float: left;
+}
+
+.logoTxt {
+	font-family: _font(family-heading);
+	font-size: 2em;
+	font-weight: 300;
+	float: right;
+}
+
+.topLogoTxt {
+	font-family: _font(family-heading);
+	font-size: 1.5em;
+	font-weight: 300;
+	float: left;
+}

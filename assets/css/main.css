@@ -1,5 +1,5 @@
 @import 'fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,700|Source+Sans+Pro:300,600,300italic,600italic");
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -89,8 +89,8 @@ html {
 }
 
 body {
-  background-color: #2e3141;
-  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+  background-color: #B25149;
+  background-image: linear-gradient(to top, rgba(178, 81, 73, 0.8), rgba(178, 81, 73, 0.8)), url("../../images/bg.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -148,7 +148,7 @@ a.special:not(.button) {
   text-decoration: none;
   border-bottom: 0;
   display: block;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -204,7 +204,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
@@ -216,7 +216,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   border-bottom: 0;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-  font-weight: 200;
+  font-weight: 300;
 }
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   padding-bottom: 1em;
@@ -1670,7 +1670,7 @@ form > .fields > .field.quarter {
 label {
   color: #ffffff;
   display: block;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1712,7 +1712,7 @@ input[type=email]:focus,
 input[type=tel]:focus,
 select:focus,
 textarea:focus {
-  border-color: #5b6ba6;
+  border-color: #b59d9f;
 }
 
 select {
@@ -1726,7 +1726,7 @@ select {
 }
 select option {
   color: #ffffff;
-  background: #2e3141;
+  background: #B25149;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1807,11 +1807,11 @@ input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
   content: "\f00c";
-  color: #2e3141;
+  color: #B25149;
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #4c5c96;
+  border-color: #AB898B;
 }
 
 input[type=checkbox] + label:before {
@@ -1891,9 +1891,39 @@ input[type=radio] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
+.mainlogoWrapper {
+  margin: 0;
+  height: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
 .topLogo {
   height: 3.5em;
   vertical-align: middle;
+  float: left;
+}
+
+.mainLogo {
+  height: 6em;
+  vertical-align: middle;
+  float: left;
+}
+
+.logoTxt {
+  font-family: Comfortaa, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  float: right;
+}
+
+.topLogoTxt {
+  font-family: Comfortaa, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  float: left;
 }
 
 /* Image */
@@ -2163,7 +2193,7 @@ ul.pagination li > .page:hover {
   background-color: rgba(255, 255, 255, 0.025);
 }
 ul.pagination li > .page.active {
-  background-color: #4c5c96;
+  background-color: #AB898B;
 }
 ul.pagination li:first-child {
   padding-right: 0.75em;
@@ -2262,7 +2292,7 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.75em;
@@ -2301,7 +2331,7 @@ input[type=reset].primary,
 input[type=button].primary,
 button.primary,
 .button.primary {
-  background-color: #4c5c96;
+  background-color: #AB898B;
   box-shadow: none;
 }
 input[type=submit].primary:hover,
@@ -2309,21 +2339,21 @@ input[type=reset].primary:hover,
 input[type=button].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #53639e;
+  background-color: #b09395;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
 input[type=button].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #45558d;
+  background-color: #a67e81;
 }
 input[type=submit].primary.icon:before,
 input[type=reset].primary.icon:before,
 input[type=button].primary.icon:before,
 button.primary.icon:before,
 .button.primary.icon:before {
-  color: #7985b0;
+  color: #c0a7a8;
 }
 input[type=submit].fit,
 input[type=reset].fit,
@@ -2377,7 +2407,7 @@ button:disabled,
 }
 .features article {
   padding: 1.75em 1.75em 0.1em 1.75em;
-  background-color: #353849;
+  background-color: #b65b54;
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
@@ -2430,7 +2460,7 @@ button:disabled,
 /* Header */
 #header {
   transition: background-color 0.2s ease-in-out;
-  background-color: rgba(53, 56, 73, 0.95);
+  background-color: rgba(182, 91, 84, 0.95);
   height: 3.5em;
   left: 0;
   line-height: 3.5em;
@@ -2452,7 +2482,7 @@ button:disabled,
   border: 0;
 }
 #header nav {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3em;
@@ -2572,7 +2602,7 @@ button:disabled,
   -webkit-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: rgba(46, 49, 65, 0.8);
+  background: rgba(178, 81, 73, 0.8);
   cursor: default;
   height: 100%;
   left: 0;
@@ -2588,7 +2618,7 @@ button:disabled,
   transform: translateY(0.5em);
   transition: opacity 0.35s ease, transform 0.35s ease;
   -webkit-overflow-scrolling: touch;
-  background: #4c5c96;
+  background: #AB898B;
   border-radius: 5px;
   display: block;
   max-width: 100%;
@@ -2629,16 +2659,16 @@ button:disabled,
   border-radius: 5px;
   border: 0;
   display: block;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 0.8em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 1.85em;
   padding: 0.75em 0;
   text-transform: uppercase;
 }
 #menu .links li a:hover {
-  background: #45558d;
+  background: #a67e81;
 }
 @media screen and (max-width: 736px) {
   #menu .inner {
@@ -2712,9 +2742,9 @@ body.is-menu-visible #menu .inner {
   -ms-filter: blur(0);
   filter: blur(0);
   opacity: 1;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 2;
   text-transform: uppercase;
@@ -2722,8 +2752,8 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-color: #B25149;
+    background-image: linear-gradient(to top, rgba(178, 81, 73, 0.8), rgba(178, 81, 73, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -2790,9 +2820,9 @@ body.is-preload #banner p {
   padding-bottom: 0.4em;
 }
 #wrapper > header p {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 2;
   text-transform: uppercase;
@@ -2800,8 +2830,8 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-color: #B25149;
+    background-image: linear-gradient(to top, rgba(178, 81, 73, 0.8), rgba(178, 81, 73, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -2833,18 +2863,18 @@ body.is-preload #banner p {
 }
 
 .wrapper {
-  background-color: #2e3141;
+  background-color: #B25149;
   margin: 6.5em 0;
   position: relative;
 }
 .wrapper:before, .wrapper:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23B25149%3B' /%3E%3C/svg%3E");
 }
 .wrapper:before {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #B25149, 0 1px 0 0 #B25149;
 }
 .wrapper:after {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #B25149, 0 1px 0 0 #B25149;
 }
 .wrapper:before, .wrapper:after {
   background-repeat: no-repeat;
@@ -2876,76 +2906,76 @@ body.is-preload #banner p {
   width: 55em;
 }
 .wrapper.style2 {
-  background-color: #353849;
+  background-color: #b65b54;
 }
 .wrapper.style2:before, .wrapper.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23b65b54%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style2:before {
-  box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+  box-shadow: inset 0 -1px 0 0 #b65b54, 0 1px 0 0 #b65b54;
 }
 .wrapper.style2:after {
-  box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+  box-shadow: inset 0 -1px 0 0 #b65b54, 0 1px 0 0 #b65b54;
 }
 .wrapper.style3 {
-  background-color: #3d4051;
+  background-color: #b96760;
 }
 .wrapper.style3:before, .wrapper.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23b96760%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style3:before {
-  box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+  box-shadow: inset 0 -1px 0 0 #b96760, 0 1px 0 0 #b96760;
 }
 .wrapper.style3:after {
-  box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+  box-shadow: inset 0 -1px 0 0 #b96760, 0 1px 0 0 #b96760;
 }
 .wrapper.style4 {
-  background-color: #454858;
+  background-color: #bc736d;
 }
 .wrapper.style4:before, .wrapper.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23454858%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23bc736d%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style4:before {
-  box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+  box-shadow: inset 0 -1px 0 0 #bc736d, 0 1px 0 0 #bc736d;
 }
 .wrapper.style4:after {
-  box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+  box-shadow: inset 0 -1px 0 0 #bc736d, 0 1px 0 0 #bc736d;
 }
 .wrapper.style5 {
-  background-color: #4d5060;
+  background-color: #c07e79;
 }
 .wrapper.style5:before, .wrapper.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234d5060%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23c07e79%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style5:before {
-  box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+  box-shadow: inset 0 -1px 0 0 #c07e79, 0 1px 0 0 #c07e79;
 }
 .wrapper.style5:after {
-  box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+  box-shadow: inset 0 -1px 0 0 #c07e79, 0 1px 0 0 #c07e79;
 }
 .wrapper.style6 {
-  background-color: #555867;
+  background-color: #c38984;
 }
 .wrapper.style6:before, .wrapper.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23c38984%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style6:before {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #c38984, 0 1px 0 0 #c38984;
 }
 .wrapper.style6:after {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #c38984, 0 1px 0 0 #c38984;
 }
 .wrapper.spotlight {
-  background-color: #4c5c96;
+  background-color: #AB898B;
 }
 .wrapper.spotlight:before, .wrapper.spotlight:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23AB898B%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight:before {
-  box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+  box-shadow: inset 0 -1px 0 0 #AB898B, 0 1px 0 0 #AB898B;
 }
 .wrapper.spotlight:after {
-  box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+  box-shadow: inset 0 -1px 0 0 #AB898B, 0 1px 0 0 #AB898B;
 }
 .wrapper.spotlight .inner {
   display: -moz-flex;
@@ -2981,64 +3011,64 @@ body.is-preload #banner p {
   margin: 0 0 2em 3em;
 }
 .wrapper.spotlight.style2 {
-  background-color: #45558d;
+  background-color: #a67e81;
 }
 .wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a67e81%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight.style2:before {
-  box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+  box-shadow: inset 0 -1px 0 0 #a67e81, 0 1px 0 0 #a67e81;
 }
 .wrapper.spotlight.style2:after {
-  box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+  box-shadow: inset 0 -1px 0 0 #a67e81, 0 1px 0 0 #a67e81;
 }
 .wrapper.spotlight.style3 {
-  background-color: #3f4e85;
+  background-color: #a27476;
 }
 .wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a27476%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight.style3:before {
-  box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+  box-shadow: inset 0 -1px 0 0 #a27476, 0 1px 0 0 #a27476;
 }
 .wrapper.spotlight.style3:after {
-  box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+  box-shadow: inset 0 -1px 0 0 #a27476, 0 1px 0 0 #a27476;
 }
 .wrapper.spotlight.style4 {
-  background-color: #39477c;
+  background-color: #9d696c;
 }
 .wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2339477c%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%239d696c%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight.style4:before {
-  box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
+  box-shadow: inset 0 -1px 0 0 #9d696c, 0 1px 0 0 #9d696c;
 }
 .wrapper.spotlight.style4:after {
-  box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
+  box-shadow: inset 0 -1px 0 0 #9d696c, 0 1px 0 0 #9d696c;
 }
 .wrapper.spotlight.style5 {
-  background-color: #324072;
+  background-color: #985f63;
 }
 .wrapper.spotlight.style5:before, .wrapper.spotlight.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23324072%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23985f63%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight.style5:before {
-  box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+  box-shadow: inset 0 -1px 0 0 #985f63, 0 1px 0 0 #985f63;
 }
 .wrapper.spotlight.style5:after {
-  box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+  box-shadow: inset 0 -1px 0 0 #985f63, 0 1px 0 0 #985f63;
 }
 .wrapper.spotlight.style6 {
-  background-color: #2d3a69;
+  background-color: #90585b;
 }
 .wrapper.spotlight.style6:before, .wrapper.spotlight.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232d3a69%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2390585b%3B' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight.style6:before {
-  box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+  box-shadow: inset 0 -1px 0 0 #90585b, 0 1px 0 0 #90585b;
 }
 .wrapper.spotlight.style6:after {
-  box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+  box-shadow: inset 0 -1px 0 0 #90585b, 0 1px 0 0 #90585b;
 }
 @media screen and (max-width: 980px) {
   .wrapper {
@@ -3161,8 +3191,8 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 1280px) {
   #footer {
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-color: #B25149;
+    background-image: linear-gradient(to top, rgba(178, 81, 73, 0.8), rgba(178, 81, 73, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
