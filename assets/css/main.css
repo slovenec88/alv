@@ -104,13 +104,13 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 body, input, select, textarea {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 16.5pt;
+  font-size: 14.5pt;
   font-weight: 300;
   line-height: 1.65;
 }
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
-    font-size: 13pt;
+    font-size: 12pt;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -3250,4 +3250,4 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
-}/*# sourceMappingURL=main.css.map */
+}
