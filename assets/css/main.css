@@ -2462,8 +2462,12 @@ button:disabled,
     height: 10em;
   }
 }
-#banner {
-  background-image: url(../../images/bg-top.jpg) !important;
+#banner, #footer {
+  background-color: transparent !important;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.4), rgba(46, 49, 65, 0.4)), url(../../images/bg-top.jpg) !important;
   background-size: cover !important;
 }
 
@@ -2476,6 +2480,10 @@ button:disabled,
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+.softArticle {
+  background-color: #a67e81 !important;
 }
 
 /* Header */
