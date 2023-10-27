@@ -67,3 +67,43 @@ body {
 }
 
 // col 3 bo treba nekak prilagodit širini
+
+
+// * {
+// 	box-sizing: border-box;
+//   }
+	.rowX {
+		box-sizing: border-box;
+		padding-bottom: 100px;
+	}
+
+  /* Create three equal columns that floats next to each other */
+  .columnX {
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	// padding: 10px;
+	// height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .rowX:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.columnX {
+	  width: 100%;
+	}
+  }
+
+  .obroba {
+    background-color: #b65b54;
+    border-radius: 5px;
+    padding: 1.5em 1.5em 0.1em 1.5em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
