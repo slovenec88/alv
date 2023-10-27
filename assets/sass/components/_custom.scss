@@ -64,6 +64,10 @@
 		font-size: 0.7em !important;
 	}
 
+	body {
+		background-position: 20% -0 !important;
+	}
+
 }
 
 #banner, #footer {
@@ -73,7 +77,7 @@
 }
 
 body {
-	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.4), rgba(46, 49, 65, 0.4)), url(../../images/bg-top2.jpg) !important;
+	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.2), rgba(46, 49, 65, 0.2)), url(../../images/bg-top3.jpg) !important;
     background-size: cover !important;
 }
 
