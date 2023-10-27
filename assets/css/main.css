@@ -2486,6 +2486,12 @@ body {
   background-color: #a67e81 !important;
 }
 
+.noSelect {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 /* Header */
 #header {
   transition: background-color 0.2s ease-in-out;
@@ -3257,4 +3263,4 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
-}
+}/*# sourceMappingURL=main.css.map */
