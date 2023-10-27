@@ -1903,7 +1903,7 @@ input[type=radio] + label:before {
   display: block;
 }
 .image.left, .image.right {
-  max-width: 40%;
+  max-width: 60%;
 }
 .image.left img, .image.right img {
   width: 100%;
