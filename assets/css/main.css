@@ -2451,16 +2451,17 @@ button:disabled,
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  text-align: left;
   letter-spacing: normal !important;
   margin: unset !important;
 }
 
 @media screen and (min-width: 800px) {
   .logoTxt {
-    font-size: 4em;
+    font-size: 3em !important;
   }
   .mainLogo {
-    height: 10em;
+    height: 10em !important;
   }
 }
 @media screen and (max-width: 800px) {
@@ -2539,7 +2540,7 @@ body {
 
 #allYouNeedText {
   opacity: 0.6 !important;
-  text-align: center;
+  text-align: left;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;

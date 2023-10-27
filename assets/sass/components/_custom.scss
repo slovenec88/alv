@@ -35,6 +35,7 @@
 	font-weight: 300 !important;
 	padding-left: 25px !important;
 	user-select: none;
+	text-align: left;
 	// transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
     // -moz-transform: translateX(0);
     // -webkit-transform: translateX(0);
@@ -50,10 +51,10 @@
 
 @media screen and (min-width: 800px) {
 	.logoTxt {
-		font-size: 4em;
+		font-size: 3em !important;
 	}
 	.mainLogo {
-		height: 10em;
+		height: 10em !important;
 	}
 
 }
@@ -146,7 +147,7 @@ body {
 
   #allYouNeedText {
 	opacity: 0.6 !important;
-    text-align: center;
+    text-align: left;
 	user-select: none;
 	letter-spacing: normal !important;
 	padding-left: 25px !important;
