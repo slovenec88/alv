@@ -2452,6 +2452,9 @@ button:disabled,
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  transform: translateX(0);
+  transition-delay: 0.65s;
 }
 
 @media screen and (min-width: 800px) {
@@ -2483,7 +2486,52 @@ body {
 }
 
 .softArticle {
-  background-color: #a67e81 !important;
+  background-color: #b65b54 !important;
+}
+.softArticle:hover {
+  filter: brightness(110%);
+}
+
+.noSelect {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.rowX {
+  box-sizing: border-box;
+  padding-bottom: 100px;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnX {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.rowX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnX {
+    width: 100%;
+  }
+}
+.obroba {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  padding: 1.5em 1.5em 0.1em 1.5em;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.obroba:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Header */
@@ -2837,8 +2885,6 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #B25149;
-    background-image: linear-gradient(to top, rgba(178, 81, 73, 0.8), rgba(178, 81, 73, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -3257,4 +3303,4 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
-}
+}/*# sourceMappingURL=main.css.map */

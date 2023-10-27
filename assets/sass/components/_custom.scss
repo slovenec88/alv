@@ -26,6 +26,15 @@
 	float: right;
 	padding-left: 0.5em;
 	user-select: none;
+	transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -moz-transition-delay: 0.65s;
+    -webkit-transition-delay: 0.65s;
+    -ms-transition-delay: 0.65s;
+    transition-delay: 0.65s;
 }
 
 @media screen and (min-width: 800px) {
@@ -59,5 +68,60 @@ body {
 }
 
 .softArticle {
-	background-color: #a67e81 !important;
+	// background-color: #a67e81 !important; TODO: spodnja mi nekak boljše pride?
+	background-color: #b65b54 !important;
+
+	&:hover {
+		filter: brightness(110%);
+	}
 }
+
+.noSelect {
+	user-select: none;
+}
+
+// col 3 bo treba nekak prilagodit širini
+
+
+// * {
+// 	box-sizing: border-box;
+//   }
+	.rowX {
+		box-sizing: border-box;
+		padding-bottom: 100px;
+	}
+
+  /* Create three equal columns that floats next to each other */
+  .columnX {
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	// padding: 10px;
+	// height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .rowX:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.columnX {
+	  width: 100%;
+	}
+  }
+
+  .obroba {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 5px;
+    padding: 1.5em 1.5em 0.1em 1.5em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+	&:hover {
+		background-color: rgba(255,255,255,0.1);
+	}
+  }
