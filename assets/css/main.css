@@ -2424,11 +2424,11 @@ button:disabled,
 
 .mainlogoWrapper {
   margin: 0;
-  height: 4em;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .topLogo {
@@ -2444,17 +2444,15 @@ button:disabled,
 }
 
 .logoTxt {
-  font-family: Comfortaa, Helvetica, sans-serif;
-  font-size: 2em;
-  font-weight: 300;
-  float: right;
-  padding-left: 0.5em;
+  font-family: Comfortaa, Helvetica, sans-serif !important;
+  font-size: 2em !important;
+  font-weight: 300 !important;
+  padding-left: 25px !important;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
-  transform: translateX(0);
-  transition-delay: 0.65s;
+  letter-spacing: normal !important;
+  margin: unset !important;
 }
 
 @media screen and (min-width: 800px) {
@@ -2463,6 +2461,11 @@ button:disabled,
   }
   .mainLogo {
     height: 10em;
+  }
+}
+@media screen and (max-width: 800px) {
+  #allYouNeedText {
+    font-size: 0.7em !important;
   }
 }
 #banner, #footer {
@@ -2532,6 +2535,17 @@ body {
 }
 .obroba:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+#allYouNeedText {
+  opacity: 0.6 !important;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  letter-spacing: normal !important;
+  padding-left: 25px !important;
+  margin: unset;
 }
 
 /* Header */
@@ -2788,7 +2802,7 @@ body.is-menu-visible #menu .inner {
   width: 55em;
 }
 #banner .logo {
-  transition: opacity 2s ease, transform 1s ease;
+  transition: opacity 1s ease, transform 0.5s ease;
   transform: translateY(0);
   opacity: 1;
   margin: 0 0 1.3em 0;
@@ -2820,7 +2834,7 @@ body.is-menu-visible #menu .inner {
 #banner p {
   transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
   transform: translateX(0);
-  transition-delay: 0.8s;
+  transition-delay: 0.4s;
   -moz-filter: blur(0);
   -ms-filter: blur(0);
   filter: blur(0);
@@ -3303,4 +3317,4 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
-}/*# sourceMappingURL=main.css.map */
+}

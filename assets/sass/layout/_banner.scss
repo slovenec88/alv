@@ -16,8 +16,8 @@
 
 		.logo {
 			@include vendor('transition', (
-				'opacity 2s ease',
-				'transform 1s ease',
+				'opacity 1s ease',
+				'transform 0.5s ease',
 			));
 			@include vendor('transform', 'translateY(0)');
 			opacity: 1;
@@ -59,7 +59,7 @@
 				'filter 0.25s ease',
 			));
 			@include vendor('transform', 'translateX(0)');
-			@include vendor('transition-delay', '0.8s');
+			@include vendor('transition-delay', '0.4s');
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			font-family: _font(family-heading);

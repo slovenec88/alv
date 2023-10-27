@@ -1,10 +1,11 @@
 .mainlogoWrapper {
 	margin: 0;
-    height: 4em;
+    // height: 4em;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+	justify-content: center;
 }
 
 .topLogo {
@@ -17,24 +18,34 @@
 	height: 6em;
 	vertical-align: middle;
 	float: left;
+	// transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+    // -moz-transform: translateX(0);
+    // -webkit-transform: translateX(0);
+    // -ms-transform: translateX(0);
+    // transform: translateX(0);
+    // -moz-transition-delay: 0.25s;
+    // -webkit-transition-delay: 0.25s;
+    // -ms-transition-delay: 0.25s;
+    // transition-delay: 0.25s;
 }
 
 .logoTxt {
-	font-family: _font(family-heading);
-	font-size: 2em;
-	font-weight: 300;
-	float: right;
-	padding-left: 0.5em;
+	font-family: _font(family-heading) !important;
+	font-size: 2em !important;
+	font-weight: 300 !important;
+	padding-left: 25px !important;
 	user-select: none;
-	transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    -moz-transition-delay: 0.65s;
-    -webkit-transition-delay: 0.65s;
-    -ms-transition-delay: 0.65s;
-    transition-delay: 0.65s;
+	// transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+    // -moz-transform: translateX(0);
+    // -webkit-transform: translateX(0);
+    // -ms-transform: translateX(0);
+    // transform: translateX(0);
+    // -moz-transition-delay: 0.25s;
+    // -webkit-transition-delay: 0.25s;
+    // -ms-transition-delay: 0.25s;
+    // transition-delay: 0.25s;
+	letter-spacing: normal !important;
+	margin: unset !important;
 }
 
 @media screen and (min-width: 800px) {
@@ -43,6 +54,13 @@
 	}
 	.mainLogo {
 		height: 10em;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	#allYouNeedText {
+		font-size: 0.7em !important;
 	}
 
 }
@@ -124,4 +142,13 @@ body {
 	&:hover {
 		background-color: rgba(255,255,255,0.1);
 	}
+  }
+
+  #allYouNeedText {
+	opacity: 0.6 !important;
+    text-align: center;
+	user-select: none;
+	letter-spacing: normal !important;
+	padding-left: 25px !important;
+	margin: unset;
   }
