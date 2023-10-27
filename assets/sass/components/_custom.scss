@@ -56,12 +56,16 @@
 	.mainLogo {
 		height: 10em !important;
 	}
+	#allYouNeedText {
+		opacity: 0.6 !important;
+	}
 
 }
 
 @media screen and (max-width: 800px) {
 	#allYouNeedText {
 		font-size: 0.7em !important;
+		opacity: 0.8 !important;
 	}
 
 	body {
@@ -150,7 +154,6 @@ body {
   }
 
   #allYouNeedText {
-	opacity: 0.8 !important;
     text-align: left;
 	user-select: none;
 	letter-spacing: normal !important;

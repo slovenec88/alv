@@ -2463,10 +2463,14 @@ button:disabled,
   .mainLogo {
     height: 10em !important;
   }
+  #allYouNeedText {
+    opacity: 0.6 !important;
+  }
 }
 @media screen and (max-width: 800px) {
   #allYouNeedText {
     font-size: 0.7em !important;
+    opacity: 0.8 !important;
   }
   body {
     background-position: 20% 0 !important;
@@ -2542,7 +2546,6 @@ body {
 }
 
 #allYouNeedText {
-  opacity: 0.6 !important;
   text-align: left;
   -webkit-user-select: none;
      -moz-user-select: none;
