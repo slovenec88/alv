@@ -74,6 +74,8 @@
 
 	.bgg {
 		background-position: 20% -0 !important;
+		background-position-y: 0px !important;
+		background-position-x: 20% !important;
 	}
 }
 
@@ -181,8 +183,6 @@ body {
     display: block;
     top: 0;
     left: 0;
-    // width: 100%;
-    // height: 100%;
     background-size: cover;
     transform: translateZ(0);
     will-change: transform;

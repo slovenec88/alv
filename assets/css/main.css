@@ -2477,6 +2477,8 @@ button:disabled,
   }
   .bgg {
     background-position: 20% 0 !important;
+    background-position-y: 0px !important;
+    background-position-x: 20% !important;
   }
 }
 #banner, #footer {
