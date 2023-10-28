@@ -2472,10 +2472,10 @@ button:disabled,
     font-size: 0.7em !important;
     opacity: 0.8 !important;
   }
-  .bgg {
+  body {
     background-position: 20% 0 !important;
   }
-  .body {
+  .bgg {
     background-position: 20% 0 !important;
   }
 }
